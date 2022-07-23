@@ -11,7 +11,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../images/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg") center top;
   background-size: cover;
 }
 
@@ -48,10 +48,10 @@ main .social-icons {
   bottom: 2vh;
   left: 2vh;
 }
-main .social-icons a {
+main a {
   padding: 0.4rem;
 }
-main .social-icons a:hover {
+main a:hover {
   color: #ff652f;
 }
 
@@ -63,4 +63,4 @@ footer {
   text-align: right;
   padding: 1rem;
   color: #fff;
-}/*# sourceMappingURL=main.css.map */
+}
